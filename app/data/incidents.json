@@ -1,0 +1,27 @@
+{
+  "incidents": [
+    "terraform applied in production",
+    "kubernetes pod crashlooping",
+    "helm chart indentation error",
+    "someone pushed directly to main",
+    "CI pipeline failing again",
+    "container restarting every 5 seconds",
+    "someone deleted the production namespace"
+  ],
+  "fixes": [
+    "restart the pod",
+    "roll back immediately",
+    "check the logs",
+    "blame DNS",
+    "increase replicas",
+    "open a Jira ticket"
+  ],
+  "tools": [
+    "kubernetes",
+    "terraform",
+    "prometheus",
+    "argocd",
+    "helm",
+    "docker"
+  ]
+}
