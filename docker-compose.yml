@@ -11,9 +11,7 @@ services:
       retries: 3
 
   go-api:
-    build: 
-      context: .
-      dockerfile: docker/Dockerfile
+    image: docker push hritikraj8804/oncall-chaos-engine:latest
     container_name: chaos-api
     depends_on:
       - redis
